@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>preview test</title>
+  <style>
+    body { font-family: system-ui; display: grid; place-content: center; height: 100vh; margin: 0; }
+    h1 { font-size: 4rem; margin: 0; }
+    code { font-size: 1.2rem; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>v1</h1>
+  <code id="host"></code>
+  <script>
+    document.getElementById('host').textContent = location.hostname;
+  </script>
+</body>
+</html>
+
